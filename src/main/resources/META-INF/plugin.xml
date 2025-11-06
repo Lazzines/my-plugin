@@ -1,0 +1,18 @@
+<idea-plugin>
+    <id>com.example.demo3</id>
+    <name>Insert Timestamp</name>
+    <version>1.0</version>
+    <vendor>Example</vendor>
+    <description>Вставляет текущие дату и время в редактор.</description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <actions>
+        <action id="InsertTimestampAction"
+                class="com.example.demo3.InsertTimestampAction"
+                text="Insert Timestamp"
+                description="Вставить текущие дату и время">
+            <keyboard-shortcut keymap="$default" first-keystroke="alt shift D"/>
+        </action>
+    </actions>
+</idea-plugin>
